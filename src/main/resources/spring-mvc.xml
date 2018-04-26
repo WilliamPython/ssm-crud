@@ -21,6 +21,6 @@
    <!-- 两个标配  -->
    <!-- 将springmvc不能处理的请求交给tomcat -->
    <mvc:default-servlet-handler/>
-   <!-- 能支持springmvc更高级的一些功能，如自动注册HandlerMapping和HandlerAdapter，JSR303校验，快捷的ajax...映射动态请求 -->
+   <!-- 能支持springmvc更高级的一些功能，如自动注册基于注解的RequestMappingHandlerMapping和RequestMappingHandlerAdapter，JSR303校验，快捷的ajax...映射动态请求 -->
    <mvc:annotation-driven/>
 </beans>
