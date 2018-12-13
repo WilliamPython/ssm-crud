@@ -40,7 +40,7 @@ public class EmployeeController {
 	/**
 	 * 单个删除员工(1)+批量删除员工(1-2-3) 二合一
 	 * 
-	 * @param id
+	 * @param ids
 	 * @return
 	 */
 	@RequestMapping(value = "/emp/{ids}", method = RequestMethod.DELETE)
