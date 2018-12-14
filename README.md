@@ -1,4 +1,4 @@
-# 创建分支(develop)
+# 创建分支(develop、hot_fix)
 # ssm-crud
 前端用Bootstrap+Jquery等JS框架,后端用SpringMVC+Spring+MyBatis后台整合框架，来完成员工信息的增删改查；它是SSM(后台)+Bootstrap（前端）+Mysql（数据库）+Maven（依赖管理及项目构建）一站式Java web开发的入门经典项目。
 # 功能点
