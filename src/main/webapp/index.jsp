@@ -23,6 +23,16 @@
 	  <meta http-equiv="description" content="This is my page">
 	  <!-- 引入Bootstrap样式 -->
 	  <link href="${path }/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	  <style type="text/css">
+		  #to_top_btn{
+			  width:80px;
+			  height:40px;
+			  border:2px red solid;
+			  position:fixed;
+			  top:250px;
+			  right:0
+		  }
+	  </style>
  </head>
  <body>
   	<!-- 编辑模态框 -->

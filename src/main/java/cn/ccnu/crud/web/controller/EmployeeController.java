@@ -190,7 +190,7 @@ public class EmployeeController {
 	public Msg getEmpsWithJSON(
 			@RequestParam(name = "pn", defaultValue = "1") Integer pn) {
 		// 获取第pn页，40条内容，默认查询总数count
-		PageHelper.startPage(pn, 40);
+		PageHelper.startPage(pn, 100);
 		List<Employee> emps = employeeService.findAll();// 返回增强对象
 		// 用PageInfo对结果进行包装，并设置导航页码数量为5
 		PageInfo pageInfo = new PageInfo(emps, 5);
