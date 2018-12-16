@@ -164,6 +164,9 @@
  		</div>
  		<!-- 显示分页信息 -->
  		<div class="row">
+			<div class="col-md-4 col-md-offset-12">
+				<a href="#top"><button type="button" class="btn btn-primary" id="to_top_btn">返回顶部</button></a>
+			</div>
  			<!--分页文字信息  -->
 			<div class="col-md-6" id="page_info_area"></div>
 			<!-- 分页条信息 -->
