@@ -15,7 +15,7 @@
 <html lang="zh-CN">
   <head>
 	  <base href="<%=basePath%>">    
-	  <title>标题</title>        
+	  <title>员工信息维护系统</title>
 	  <meta http-equiv="pragma" content="no-cache">
 	  <meta http-equiv="cache-control" content="no-cache">
 	  <meta http-equiv="expires" content="0">    
@@ -36,7 +36,7 @@
 	      <div class="modal-body">
 	      	<form class="form-horizontal">
 			  <div class="form-group">
-			    <label for="empName_update_input" class="col-sm-2 control-label">empName</label>
+			    <label for="empName_update_static" class="col-sm-2 control-label">empName</label>
 			    <div class="col-sm-10">
 			      <p class="form-control-static" id="empName_update_static"></p>
 			    </div>
