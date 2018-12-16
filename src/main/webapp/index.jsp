@@ -15,7 +15,7 @@
 <html lang="zh-CN">
   <head>
 	  <base href="<%=basePath%>">    
-	  <title>标题</title>        
+	  <title>员工信息维护系统</title>
 	  <meta http-equiv="pragma" content="no-cache">
 	  <meta http-equiv="cache-control" content="no-cache">
 	  <meta http-equiv="expires" content="0">    
@@ -23,6 +23,16 @@
 	  <meta http-equiv="description" content="This is my page">
 	  <!-- 引入Bootstrap样式 -->
 	  <link href="${path }/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	  <style type="text/css">
+		  #to_top_btn{
+			  width:80px;
+			  height:40px;
+			  border:2px red solid;
+			  position:fixed;
+			  top:250px;
+			  right:0
+		  }
+	  </style>
  </head>
  <body>
   	<!-- 编辑模态框 -->
@@ -36,7 +46,7 @@
 	      <div class="modal-body">
 	      	<form class="form-horizontal">
 			  <div class="form-group">
-			    <label for="empName_update_input" class="col-sm-2 control-label">empName</label>
+			    <label for="empName_update_static" class="col-sm-2 control-label">empName</label>
 			    <div class="col-sm-10">
 			      <p class="form-control-static" id="empName_update_static"></p>
 			    </div>
@@ -164,6 +174,9 @@
  		</div>
  		<!-- 显示分页信息 -->
  		<div class="row">
+			<div class="col-md-4 col-md-offset-12">
+				<a href="#top"><button type="button" class="btn btn-primary" id="to_top_btn">返回顶部</button></a>
+			</div>
  			<!--分页文字信息  -->
 			<div class="col-md-6" id="page_info_area"></div>
 			<!-- 分页条信息 -->
