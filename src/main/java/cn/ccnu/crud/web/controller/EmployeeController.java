@@ -163,7 +163,7 @@ public class EmployeeController {
 	@RequestMapping(value = "/checkuser", method = RequestMethod.GET)
 	@ResponseBody
 	public Msg checkuser(@RequestParam("empName") String empName) {
-		// 先判断用户名是否是合法的表达式,与前端校验保持一致，为了避免前端判断用户名可用，但后面后端有提示不可用，统一起来;
+		// 先判断用户名是否是合法的表达式,与前端校验保持一致，为了避免前端判断用户名可用，但后面后端又提示不可用，统一起来;
 		String regx = "(^[A-Za-z0-9_-]{6,16}$)|(^[\u2E80-\u9FFF]{2,5})";
 		if (!empName.matches(regx)) {
 			return Msg.Failure().add("valid_msg",
