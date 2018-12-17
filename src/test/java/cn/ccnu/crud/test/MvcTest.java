@@ -44,6 +44,10 @@ public class MvcTest {
 		mockMvc = MockMvcBuilders.webAppContextSetup(context).build();
 	}
 
+	/**
+	 * 测试普通分页查询（已过时）
+	 * @throws Exception
+	 */
 	@Test
 	public void testPage() throws Exception {
 		// 模拟请求拿到返回值

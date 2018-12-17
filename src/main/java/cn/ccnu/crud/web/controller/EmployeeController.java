@@ -179,7 +179,7 @@ public class EmployeeController {
 	}
 
 	/**
-	 * 查询员工数据（json分页查询）
+	 * 查询员工数据（json AJAX分页查询）
 	 * 
 	 * 注意：@ResponseBody需要导入类似Jackson包才能将Java对象转换成JSON串
 	 * @param pn
@@ -199,7 +199,7 @@ public class EmployeeController {
 	}
 
 	/**
-	 * 查询员工数据（分页查询）
+	 * 查询员工数据（普通分页查询）
 	 * @param pn
 	 * @param model
 	 * @return
