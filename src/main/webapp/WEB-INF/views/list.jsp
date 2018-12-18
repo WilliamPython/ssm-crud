@@ -15,20 +15,22 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
   <head>
-    <base href="<%=basePath%>">    
-    <title>标题</title>        
-  <meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="cache-control" content="no-cache">
-  <meta http-equiv="expires" content="0">    
-  <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-  <meta http-equiv="description" content="This is my page">
-  
-  <!-- 引入Bootstrap样式 -->
-  <link href="${path }/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
-  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
-  <script src="${path }/static/js/jquery-1.12.4.min.js" type="text/javascript"></script>
-  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
-  <script src="${path }/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
+      <base href="<%=basePath%>">
+	  <title>标题</title>
+	  <meta http-equiv="pragma" content="no-cache">
+	  <meta http-equiv="cache-control" content="no-cache">
+	  <meta http-equiv="expires" content="0">
+	  <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
+	  <meta http-equiv="description" content="This is my page">
+	  <meta http-equiv="keywords" content="Spring,SpringMVC,Mybatis">
+	  <meta http-equiv="description" content="员工信息维护系统(ssm-crud)">
+	  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	  <!-- 引入Bootstrap样式 -->
+	  <link href="${path }/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+	  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+	  <script src="${path }/static/js/jquery-1.12.4.min.js" type="text/javascript"></script>
+	  <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+	  <script src="${path }/static/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
  </head>
  <body>
  	<div class="container">
