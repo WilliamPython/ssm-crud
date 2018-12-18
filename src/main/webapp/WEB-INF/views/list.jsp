@@ -17,14 +17,13 @@
   <head>
       <base href="<%=basePath%>">
 	  <title>员工信息维护系统</title>
+	  <meta charset="UTF-8">
 	  <meta http-equiv="pragma" content="no-cache">
 	  <meta http-equiv="cache-control" content="no-cache">
 	  <meta http-equiv="expires" content="0">
-	  <meta http-equiv="keywords" content="keyword1,keyword2,keyword3">
-	  <meta http-equiv="description" content="This is my page">
 	  <meta http-equiv="keywords" content="Spring,SpringMVC,Mybatis">
 	  <meta http-equiv="description" content="员工信息维护系统(ssm-crud)">
-	  <meta charset="UTF-8">
+
 	  <!-- 引入Bootstrap样式 -->
 	  <link href="${path }/static/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
 	  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
